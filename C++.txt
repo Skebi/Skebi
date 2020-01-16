@@ -1,0 +1,20 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	cout<<" unesite niz :";
+	string n,a;
+	getline(cin,n);
+	int duzina=n.length();
+	int br=0;
+	for(int i=0;i<duzina;i++){
+		if(n[i]!=n[i+1]){
+			a[br]=n[i];
+			br++;
+			}
+		}
+		cout<<"novi niz je:";
+		for(int i=0;i<duzina;i++)
+		cout<<a[i];
+}
